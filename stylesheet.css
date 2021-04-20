@@ -1,0 +1,265 @@
+body {
+  background-color: #333333;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  color: #e9da4e;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+h2 {
+  font-family: "Rubik", sans-serif;
+  color: #e9da4e;
+  font-size: 10vw;
+  margin-bottom: 0vw;
+  margin-left: 2.5%;
+  margin-top: 0vw;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  position: relative;
+  font-size: 32px;
+  margin-top: 0vw;
+  margin-left: 2.5%;
+}
+
+p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+a {
+  font-family: "Rubik", sans-serif;
+  color: white;
+}
+
+.catalogue-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+}
+
+.floorPlan {
+  display: flex;
+  visibility:hidden;
+  flex-flow: column;
+  justify-content: center;
+  max-width: 100%;
+  position: fixed;
+  top: 3%;  
+}
+
+.events{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.parent {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.element {
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.artist-names {
+  display: none;
+}
+
+.name {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* about columns for logo */
+.columnCont {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 80%;
+  margin-left: calc(10% - 10px);
+}
+.columnCont .column {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.columnCont .column p {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .parent {
+    display: flex;
+    flex-flow: column;
+  }
+  .element {
+    display: none;
+  }
+
+  .artist-names {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    visibility: visible;
+    margin: 5%;
+  }
+
+  .floorPlan {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+/* NAV BAR BELOW */
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  position: sticky;
+  top: 0;
+  margin: 0vw;
+}
+
+.topnav-right .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav-right a:not(:last-child) {
+    display: none;
+  }
+  .topnav-right a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav-right.responsive {
+    position: relative;
+  }
+  .topnav-right.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav-right.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Style the button and place it in the middle of the container/image */
+.btn {
+  position: relative;
+  background-color: #e9da4e;
+  font-family: "Rubik", sans-serif;
+  top: 5;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+  width: 100px;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.container {
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.design-img {
+  width: auto;
+}
+
+.sponsors {
+  width: 40%;
+  margin: 0;
+}
+

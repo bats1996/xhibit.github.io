@@ -1,0 +1,324 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="artists/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="artists/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="artists/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="artists/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="artists/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://unpkg.com/image-map/dist/image-map.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="jquery.maphilight.js"></script>
+    <script type="text/javascript">$(function() {
+      $('.map').maphilight({fade: false});
+    });</script>
+
+    <script>
+  function writeText(txt) {
+    document.getElementById("desc").innerHTML = txt;
+  }
+  </script>
+
+    <title>Xhibit 2020</title>
+
+  </head>
+
+  <body>
+    
+    <div class="topnav">
+          <a href="#home">
+            <img src="assets/artssu-xhibit-logo-white.png" width="54px">
+          </a>
+        <div class="topnav-right" id="myTopnav">
+          <a href="about.html">About</a>
+          <a href="events.html">Events</a>
+          <a href="artist.html">Catalogue</a>
+          <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </div>
+
+    <script>
+      function navFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav-right") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav-right";
+      }
+        }
+    
+      function replaceImg() {
+        document.getElementById("myImage").src =
+          "assets/animation.gif";
+        document.getElementById("enterButton").style.display = "none";
+        setTimeout(function() {
+          document.getElementById("myImage").style.display = "none";
+          document.getElementById("mapId").style.visibility = "visible";
+        }, 5000);
+      }
+    </script>    
+
+    <div class="container">
+      <img
+        id="myImage"
+        src="assets/homepage.png"
+        style="width:80%; margin-left: auto; margin-right: auto;"
+      />
+      <button id="enterButton" class="btn" onclick="replaceImg()">
+        Enter Gallery
+      </button>
+    </div>
+
+        <div class="artist-names">
+          <a class="name" href="artists/AikateriniMimikou.html">Aikaterini Mimikou</a>
+          <br>
+          <br>
+          <a class="name" href="artists/AliciaMcGuire.html">Alicia McGuire</a>
+          <br>
+          <br>
+          <a class="name" href="artists/AmirHosseinDehghab.html">Amir Hossein Dehghab</a>
+          <br>
+          <br>
+          <a class="name" href="artists/BenjaminCruz.html">Benjamin Cruz</a>
+          <br>
+          <br>
+          <a class="name" href="artists/BreakfastLunchandDinner.html">Breakfast, Lunch and Dinner</a>
+          <br>
+          <br>
+          <a class="name" href="artists/ChirawilaiLuatngoen.html">Chirawilai Luatngoen</a>
+          <br>
+          <br>
+          <a class="name" href="artists/ColinsLievensThomasOliver.html">Colin Lievens and Thomas Oliver</a>
+          <br>
+          <br>
+          <a class="name" href="artists/DominikWiecek.html">Dominik Wiecek</a>
+          <br>
+          <br>
+          <a class="name" href="artists/EleanorPearce.html">EleanorPearce</a>
+          <br>
+          <br>
+          <a class="name" href="artists/EmmaPhillips.html">Emma Phillips</a>
+          <br>
+          <br>
+          <a class="name" href="artists/GailTheis.html">Gail Theis</a>
+          <br>
+          <br>
+          <a class="name" href="artists/HeiDiLi.html">Hei Di Li</a>
+          <br>
+          <br>
+          <a class="name" href="artists/HelenaCartledge.html">Helena Cartledge</a>
+          <br>
+          <br>
+          <a class="name" href="artists/HelunLiang.html">Helun Liang</a>
+          <br>
+          <br>
+          <a class="name" href="artists/HenryGlover.html">Henry Glover</a>
+          <br>
+          <br>
+          <a class="name" href="artists/IoloPuleston.html">Iolo Puleston</a>
+          <br>
+          <br>
+          <a class="name" href="artists/JulietteStuart.html">Juliette Stuart</a>
+          <br>
+          <br>
+          <a class="name" href="artists/LiviaCarpineto.html">Livia Carpineto</a>
+          <br>
+          <br>
+          <a class="name" href="artists/LucyAlves.html">Lucy Alves</a>
+          <br>
+          <br>
+          <a class="name" href="artists/LuXu.html">Lu Xu</a>
+          <br>
+          <br>
+          <a class="name" href="artists/NeelamBhullar.html">Neelam Bhullar</a>
+          <br>
+          <br>
+          <a class="name" href="artists/ParaskeviPatoulioti.html">Paraskevi Patoulioti</a>
+          <br>
+          <br>
+          <a class="name" href="artists/PatriciaBeja.html">Patricia Beja</a>
+          <br>
+          <br>
+          <a class="name" href="artists/SuJungJang.html">Su Jung Jang</a>
+          <br>
+          <br>
+          <a class="name" href="artists/TeaDiGiacomoEmanuelaPassadoreRachelWang.html">Tea di Giacomo, Emanuela Passadore and Rachel Wang</a>
+          <br>
+          <br>
+          <a class="name" href="artists/TsanHuang.html">Tsan Huang</a>
+          <br>
+          <br>
+          <a class="name" href="artists/YasmeenThantrey.html">Yasmeen Thantrey</a>
+          <br>
+          <br>
+          <a class="name" href="artists/YulaWojcik.html">Yula Wojcik</a>
+
+        </div>
+
+
+      <div class="floorPlan" id="mapId">
+        <img src ="assets/new_floorPlan@72x.png" alt="Floor Plan" usemap="#image-map" style="width: 80%; margin-left: auto; margin-right: auto;" />
+
+      <map name="image-map">
+      <area coords="1490,592,27" shape="circle"
+      onmouseover="writeText('Lucy Alves')",
+      onclick="window.open('artists/LucyAlves.html','popup','width=400,height=450'); return false;"
+      target ="_blank" alt="Lucy Alves" title="Lucy Alves" />
+
+
+      <area coords="1532,171,28" shape="circle"
+      onmouseover="writeText('Aikaterini Mimikou')"
+      onclick="window.open('artists/AikateriniMimikou.html','popup','width=400,height=450'); return false;"
+      target ="_blank" alt="Aikaterini Mimikou" title="Aikaterini Mimikou" />
+
+
+      <area coords="738,682,29" shape="circle"
+      onmouseover="writeText('Alicia McGuire')"
+      onclick="window.open('artists/AliciaMcGuire.html','popup','width=400,height=450'); return false;"
+      target ="_blank" alt="Venus" title="AliciaMcGuire" />
+
+      <area coords="91,165,30" shape="circle"
+      onmouseover="writeText('Amir Hossein Dehghab')"
+      onclick="window.open('artists/AmirHosseinDehghab.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="AmirHosseinDehghab" title="AmirHosseinDehghab" />
+
+      <area coords="267,204,29" shape="circle"
+      onmouseover="writeText('Emma Phillips')"
+      onclick="window.open('artists/EmmaPhillips.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="EmmaPhillips" title="EmmaPhillips"/>
+
+      <area coords="182,499,30" shape="circle"
+      onmouseover="writeText('Breakfast, Lunch and Dinner')"
+      onclick="window.open('artists/BreakfastLunchandDinner.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="BreakfastLunchandDinner" title="BreakfastLunchandDinner">
+
+      <area coords="108,719,27" shape="circle"
+      onmouseover="writeText('Helena Cartledge')"
+      onclick="window.open('artists/HellieCartledge.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="HellieCartledge" title="HellieCartledge">
+
+      <area coords="94,882,28" shape="circle"
+      onmouseover="writeText('Yasmeen Thantrey')"
+      onclick="window.open('artists/YasmeenThantrey.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="YasmeenThantrey" title="YasmeenThantrey">
+
+      <area coords="398,880,29" shape="circle"
+      onmouseover="writeText('Henry Glover')"
+      onclick="window.open('artists/HenryGlover.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="HenryGlover" title="Henry Glover">
+
+      <area coords="552,882,31" shape="circle"
+      onmouseover="writeText('Yula Wojcik')"
+      onclick="window.open('artists/YulaWojcik.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="YulaWojcik" title="Yula Wojcik">
+
+      <area coords="844,880,31" shape="circle"
+      onmouseover="writeText('Livia Carpineto')"
+      onclick="window.open('artists/LiviaCarpineto.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="LiviaCarpineto" title="Livia Carpineto">
+
+      <area coords="481,441,26" shape="circle"
+      onmouseover="writeText('Neelam Bhullar')"
+      onclick="window.open('artists/NeelamBhullar.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="NeelamBhullar" title="Neelam Bhullar">
+
+      <area coords="520,167,28" shape="circle"
+      onmouseover="writeText('Dominik Wiecek')"
+      onclick="window.open('artists/DominikWiecek.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="DominikWiecek" title="Dominik Wiecek">
+
+      <area coords="839,165,30" shape="circle"
+      onmouseover="writeText('Patricia Beja')"
+      onclick="window.open('artists/PatriciaBeja.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="PatriciaBeja" title="Patricia Beja">
+
+      <area coords="779,573,27" shape="circle"
+      onmouseover="writeText('Helun Liang')"
+      onclick="window.open('artists/HelunLiang.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="HelunLiang" title="Helun Liang">
+
+      <area coords="1003,270,30" shape="circle"
+      onmouseover="writeText('Gail Theis')"
+      onclick="window.open('artists/GailTheis.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="Gail Theis" title="Gail Theis">
+
+      <area coords="1074,579,29" shape="circle"
+      onmouseover="writeText('Chirawilai Luatngoen')"
+      onclick="window.open('artists/ChirawilaiLuatngoen.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="Chirawilai Luatngoen" title="Chirawilai Luatngoen"/>
+
+      <area coords="1073,889,30" shape="circle"
+      onmouseover="writeText('Juliette Stuart')"
+      onclick="window.open('artists/JulietteStuart.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="JulietteStuart" title="JulietteStuart"/>
+
+      <area coords="1220,162,28" shape="circle"
+      onmouseover="writeText('Chirawilai Luatngoen')"
+      onclick="window.open('artists/ChirawilaiLuatngoen.html','popup','width=400,height=450'); return false;"
+      target="" alt="LuXu" title="LuXu">
+
+      <area coords="1181,485,27" shape="circle"
+      onmouseover="writeText('Hei Di Li')"
+      onclick="window.open('artists/HeiDiLi.html','popup','width=400,height=450'); return false;"
+      target="" alt="HeiDiLi" title="HeiDiLi">
+
+      <area coords="1207,591,28" shape="circle"
+      onmouseover="writeText('Benjamin Cruz')"
+      onclick="window.open('artists/BenjaminCruz.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="BenjaminCruz" title="Benjamin Cruz">
+
+      <area coords="1181,810,26" shape="circle"
+      onmouseover="writeText('Colin Lievens and Thomas Oliver')"
+      onclick="window.open('artists/ColinLievensThomasOliver.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="ColinandThomas" title="Colin Lievens and Thomas Oliver">
+
+      <area coords="1319,713,28" shape="circle"
+      onmouseover="writeText('Paraskevi Patoulioti')"
+      onclick="window.open('artists/ParaskeviPatoulioti.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="Paraskevi Patoulioti" title="Paraskevi Patoulioti">
+
+      <area coords="1464,879,26" shape="circle"
+      onmouseover="writeText('Iolo Puleston')"
+      onclick="window.open('artists/IoloPuleston.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="IoloPuleston" title="Iolo Puleston">
+
+      <area coords="1702,603,28" shape="circle"
+      onmouseover="writeText('Eleanor Pearce')"
+      onclick="window.open('artists/EleanorPearce.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="EleanorPearce" title="Eleanor Pearce">
+
+      <area coords="1817,879,29" shape="circle"
+      onmouseover="writeText('Su Jung Jang')"
+      onclick="window.open('artists/SuJungJang.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="SuJungJang" title="Su Jung Jang">
+
+      <area coords="1817,355,27" shape="circle"
+      onmouseover="writeText('Tsan Huang')"
+      onclick="window.open('artists/TsanHuang.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="TsanHuang" title="TsanHuang"/>
+
+      <area coords="1536,487,30" shape="circle"
+      onmouseover="writeText('Tea Di Giacomo, Emanuela Passadore, Rachel Wang')"
+      onclick="window.open('artists/TeaDiGiacomoEmanuelaPassadoreRachelWang.html','popup','width=400,height=450'); return false;"
+      target="_blank" alt="TeaEmanuelaRachel" title="Tea di Giacomo, Emanuela Passadore and Rachel Wang"/>
+
+
+      </map> 
+
+      <h3 id="desc">Mouse over the dots to reveal artists' name.</h3>
+
+      <script>ImageMap('img[usemap]')</script>
+      </div>
+  </body>
+</html>

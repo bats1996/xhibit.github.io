@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    color: #e9da4e;
+    font-size:10vw;
+    margin-bottom: 0vw;
+    margin-left: 2.5%;
+    margin-top: 0vw;
+  }
+
+  h3{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px;
+    margin-top: 0vw;
+    margin-left: 2.5%;  
+  }
+
+  p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  a{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    margin-left: 2.5%;
+  }
+  
+  figure{
+    display: flex;
+    flex-flow: column;
+    max-width: 100%;
+    padding: 5px;
+    margin: auto;
+  }
+
+  img {
+    max-width: 100%;
+}
+
+  figcaption{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: block;
+  }
+
+ 

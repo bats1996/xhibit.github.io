@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="departure.css" />
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <script src="https://unpkg.com/image-map/dist/image-map.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="artists/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="artists/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="artists/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="artists/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="artists/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Xhibit Events</title>
+
+  </head>
+
+  <body>
+    
+    <div class="topnav">
+      <a href="index.html">
+          <img src="assets/artssu-xhibit-logo-white.png" width="54px">
+      </a>
+      <div class="topnav-right" id="myTopnav">
+        <a href="about.html">About</a>
+        <a href="#events">Events</a>
+        <a href="artist.html">Catalogue</a>
+        <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+  </div>
+
+    <script>
+      function navFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav-right") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav-right";
+        }
+      }
+    </script>
+
+
+    <img src="assets/events.png" usemap="#image-map" style="display: flex; justify-content: center; width: 100%;">
+
+    <map name="image-map">
+        <area target="_blank" alt="PV" title="PV" href="" coords="649,141,1110,530" shape="rect">
+        <area target="_blank" alt="AlternativeGalleries" title="AlternativeGalleries" href="" coords="1268,834,691,557" shape="rect">
+        <area target="_blank" alt="CuratorPast" title="CuratorPast" href="" coords="1307,141,1685,442" shape="rect">
+        <area target="" alt="PastEvents" title="PastEvents" href="" coords="1298,472,1685,832" shape="rect">
+    </map>
+    <script>ImageMap('img[usemap]')</script>
+  </body>
+</html>
