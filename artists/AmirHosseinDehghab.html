@@ -30,9 +30,20 @@
         }
         
         
-        /* The dots/bullets/indicators */
+       /* The dots/bullets/indicators */
         .dot {
-          display: none;
+          cursor: pointer;
+          height: 7px;
+          width: 7px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+          background-color: #717171;
         }
         
         
@@ -79,12 +90,6 @@
             <div class="mySlides fade">
                 <img src="assets/Amir6.jpg" style="height:100%">
             </div>
-            
-            </div>
-            <figcaption style="font-weight: bold;">1466 Lashes, 2019</figcaption>
-            <figcaption>Gelatin silver prints, hand-typed text on recycled paper<br>Sizes variable</figcaption>
-            <br>
-            
             <div style="text-align:center">
               <span class="dot"></span> 
               <span class="dot"></span> 
@@ -95,6 +100,12 @@
               <span class="dot"></span> 
               <span class="dot"></span>  
             </div>
+          </div>
+            <figcaption style="font-weight: bold;">1466 Lashes, 2019</figcaption>
+            <figcaption>Gelatin silver prints, hand-typed text on recycled paper<br>Sizes variable</figcaption>
+            <br>
+            
+            
 
     <h2>Amir Hossein Dehghab</h2>
     <h3>Fine Art: Photography<br>Camberwell College of Arts</h3>
