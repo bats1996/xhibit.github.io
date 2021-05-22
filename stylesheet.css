@@ -23,7 +23,9 @@ h2 {
 h3 {
   font-family: "Roboto", sans-serif;
   color: white;
-  position: relative;
+  position: absolute;
+  bottom: 1%;
+  left: 9%;
   font-size: 32px;
   margin-top: 0vw;
   margin-left: 2.5%;
@@ -65,7 +67,7 @@ a {
   justify-content: center;
   max-width: 100%;
   position: fixed;
-  top: 3%;  
+  top: 7%;  
 }
 
 .events{
