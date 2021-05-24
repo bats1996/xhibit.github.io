@@ -47,12 +47,14 @@ a {
 }
 
 .catalogue-container {
+  position:absolute;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  width: 95%;
+  height: 95%;
+  top:3%;
 }
 
 .container {
