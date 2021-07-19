@@ -17,11 +17,7 @@
     <meta name="theme-color" content="#ffffff">
     <script src="https://unpkg.com/image-map/dist/image-map.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="jquery.maphilight.js"></script>
-    <script type="text/javascript">$(function() {
-      $('.map').maphilight({fade: false});
-    });</script>
-
+    
     <script>
   function writeText(txt) {
     document.getElementById("desc").innerHTML = txt;
@@ -33,7 +29,7 @@
   </head>
 
   <body>
-    
+    <!-- This is the menu bar -->
     <div class="topnav">
           <a href="#home">
             <img src="assets/artssu-xhibit-logo-white.png" width="54px">
@@ -68,7 +64,7 @@
         }, 5500);
       }
     </script>    
-
+<!--This is where the outside of the gallery image is stored and the button that opens the gif that leads to the map-->
     <div class="container">
       <img
         id="myImage"
@@ -79,7 +75,7 @@
         Enter Gallery
       </button>
     </div>
-
+<!-- This is the information for the mobile version -->
         <div class="artist-names">
           <a class="name" href="artists/AikateriniMimikou.html">Aikaterini Mimikou</a>
           <br>
@@ -163,7 +159,7 @@
 
         </div>
 
-
+<!-- This is the mapping for the dots on the map -->
       <div class="floorPlan" id="mapId">
         <img src ="assets/new_floorPlan@72x.png" alt="Floor Plan" usemap="#image-map" style="width: 80%; margin-left: auto; margin-right: auto;" />
 
